@@ -48,7 +48,6 @@ stages:
 #        jdkArchitectureOption: 'x64'
 #        publishJUnitResults: false
 #        goals: 'compile -DskipTests=true'
-
   - job: Test_Sources
     displayName: Test Sources
 #   dependsOn: Compile
